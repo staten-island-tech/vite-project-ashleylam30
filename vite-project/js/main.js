@@ -15,7 +15,7 @@ menu.forEach((menu) =>
 <div class="child">
 <img class="img" src="${menu.IMG}"><img>
 <h1>${menu.Name}</h1>
-<h2>${menu.Price}</h2>
+<h2 class="price">$${menu.Price}</h2>
 </div>
 
 `
