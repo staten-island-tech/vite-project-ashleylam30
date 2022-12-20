@@ -1,10 +1,15 @@
 html {
-  background-color: red;
+  background-color: mediumaquamarine;
 }
 
 h1{
     text-align: center;
-    font-size: 10rem;
+    font-size: 5rem;
+    font-style: oblique;
+}
+h2{
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 
@@ -41,3 +46,20 @@ h1{
   transition: all 0.2s;
 
 } */
+
+.parent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.child{
+border: 3px solid black;
+width: 28%
+}
+
+.img{
+  width: 100%;
+  height: 60%;
+}
