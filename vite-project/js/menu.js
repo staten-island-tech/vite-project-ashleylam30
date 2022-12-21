@@ -30,4 +30,46 @@ const menu = [
     Price: 3.25,
     IMG: "https://img1.mashed.com/img/gallery/the-untold-truth-of-mochi-ice-cream/intro-1585592645.jpg",
   },
+  {
+    Name: "Fried Calamari",
+    Type: "Appetizer",
+    Price: 7.5,
+    IMG: "https://www.savoryexperiments.com/wp-content/uploads/2013/07/Chimichurri-Fried-Calamari-2.jpg",
+  },
+  {
+    Name: "Jalopeno Poppers",
+    Type: "Appetizer",
+    Price: 6.5,
+    IMG: "https://howtofeedaloon.com/wp-content/uploads/2016/03/jalapeno-feature-1024x936.jpg",
+  },
+  {
+    Name: "Cripsy Spring Rolls",
+    Type: "Appetizer",
+    Price: 7.5,
+    IMG: "https://th.bing.com/th/id/OIP.A7AR5rS8fcp2OSZcTTxXFAHaE7?pid=ImgDet&rs=1",
+  },
+  {
+    Name: "Bacan Bread",
+    Type: "Appetizer",
+    Price: 14.7,
+    IMG: "https://www.dontgobaconmyheart.co.uk/wp-content/uploads/2017/12/easy-bacon-appetizers-Cheesy-Bacon-Garlic-Pull-Apart-Bread-so-cheesy.jpg",
+  },
+  {
+    Name: "Caesar Salad",
+    Type: "Appetizer",
+    Price: 12.5,
+    IMG: "https://personalgourmetmeals.com/wp-content/uploads/2020/10/CAESAR-SALAD.jpg",
+  },
+  {
+    Name: "Chicken Alfredo Pasta",
+    Type: "Main Dish",
+    Price: 21,
+    IMG: "https://www.smalltownwoman.com/wp-content/uploads/2018/04/Chicken-Alfredo-DSC_2892.jpg",
+  },
+  {
+    Name: "Steak",
+    Type: "Main Dish",
+    Price: 32,
+    IMG: "https://images.freeimages.com/images/premium/previews/3285/32851774-juicy-steak.jpg",
+  },
 ];
