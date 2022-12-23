@@ -14,7 +14,7 @@ menu.forEach((menu) =>
 
 <div class="child">
 <img class="img" src="${menu.IMG}"><img>
-<h1>${menu.Name}</h1>
+<h1 class="name">${menu.Name}</h1>
 <h2 class="price">$${menu.Price}</h2>
 </div>
 
@@ -44,4 +44,74 @@ function DessertMenu() {
 `
       )
     );
+}
+
+DOM.starterbtn.addEventListener("click", function () {
+  DOM.mainpage.innerHTML = "";
+  startermenu();
+});
+
+function startermenu() {
+  menu
+    .filter((menu) => menu.Type === "Appetizer")
+    .forEach((menu) =>
+      DOM.mainpage.insertAdjacentHTML(
+        "beforeend",
+        `
+    
+  <div class="child">
+  <img class="img" src="${menu.IMG}"><img>
+  <h1>${menu.Name}</h1>
+  <h2 class="price">$${menu.Price}</h2>
+  </div>
+  
+  `
+      )
+    );
+}
+
+DOM.maindishbtn.addEventListener("click", function () {
+  DOM.mainpage.innerHTML = "";
+  mainmenu();
+});
+
+function mainmenu() {
+  menu
+    .filter((menu) => menu.Type === "Main Dish")
+    .forEach((menu) =>
+      DOM.mainpage.insertAdjacentHTML(
+        "beforeend",
+        `
+    
+  <div class="child">
+  <img class="img" src="${menu.IMG}"><img>
+  <h1>${menu.Name}</h1>
+  <h2 class="price">$${menu.Price}</h2>
+  </div>
+  
+  `
+      )
+    );
+}
+
+DOM.everythingbtn.addEventListener("click", function () {
+  DOM.mainpage.innerHTML = "";
+  everything();
+});
+
+function everything() {
+  menu.forEach((menu) =>
+    DOM.mainpage.insertAdjacentHTML(
+      "beforeend",
+      `
+    
+  <div class="child">
+  <img class="img" src="${menu.IMG}"><img>
+  <h1>${menu.Name}</h1>
+  <h2 class="price">$${menu.Price}</h2>
+  </div>
+  
+  `
+    )
+  );
 }

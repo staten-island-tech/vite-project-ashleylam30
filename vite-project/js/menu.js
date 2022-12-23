@@ -19,10 +19,10 @@ const menu = [
     IMG: "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2F7b084eaf9d7d564dd2667094c3dd1260a5e4d646",
   },
   {
-    Name: "Sugar Cookies",
-    Type: "Dessert",
-    Price: 7.75,
-    IMG: "https://www.allrecipes.com/thmb/XSJoH98eVnTCnaE6lTcDpYHbalw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9870-easy-sugar-cookies-mfs356-1-8c317695c5b645a48f6b20d1b97d3c93.jpg",
+    Name: "Steak Burrito",
+    Type: "Main Dish",
+    Price: 22,
+    IMG: "https://i.pinimg.com/originals/01/c4/70/01c47021cd8c7a947fba1ec6f0624fa0.jpg",
   },
   {
     Name: "Mochi Ice Cream",
