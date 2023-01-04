@@ -1,6 +1,4 @@
-html {
-  background-color: lavender;
-}
+
 
 h1{
     text-align: center;
@@ -75,4 +73,21 @@ margin-bottom: 50px;
 }
 .name {
   font-size: 2rem;
+}
+
+:root{
+  --color1: blue;
+  --red: red;
+}
+
+.warm{
+  background-color: var(--color1);
+}
+
+.cool{
+  background-color: var(--red);
+}
+
+body{
+  background-color: var(--color1);
 }

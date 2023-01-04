@@ -4,6 +4,7 @@ const DOM = {
   starterbtn: document.getElementById("appetizer"),
   maindishbtn: document.getElementById("maindish"),
   everythingbtn: document.getElementById("everything"),
+  changetheme: document.getElementById("themebtn"),
 };
 
 export { DOM };
