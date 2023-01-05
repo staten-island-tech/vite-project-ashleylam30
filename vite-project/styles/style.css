@@ -8,6 +8,7 @@ h1{
 h2{
   font-weight: bold;
   font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -53,19 +54,24 @@ h2{
   justify-content: space-evenly;
   flex-wrap: wrap;
   position: relative;
-  display: 1;
+  margin-top: 1rem
+  
+
   
 }
 
 .child{
-border: 3px solid black;
+background-color: white;
+border-radius: 1rem;
 width: 28%;
 margin-bottom: 50px;
 }
 
 .img{
   width: 100%;
-  height: 60%;
+  height: 30rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .price{
@@ -73,11 +79,12 @@ margin-bottom: 50px;
 }
 .name {
   font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 :root{
-  --color1: blue;
-  --red: red;
+  --color1: rgb(170, 231, 247);
+  --lavender: lavender;
 }
 
 .warm{
@@ -85,7 +92,7 @@ margin-bottom: 50px;
 }
 
 .cool{
-  background-color: var(--red);
+  background-color: var(--lavender);
 }
 
 body{
