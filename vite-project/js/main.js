@@ -117,11 +117,11 @@ function everything() {
 }
 
 DOM.changetheme.addEventListener("click", function () {
-  if (document.body.classList.contains("cool")) {
+  if (document.body.classList.contains("warm")) {
+    document.body.classList.add("cool");
+    document.body.classList.remove("warm");
+  } else {
     document.body.classList.add("warm");
     document.body.classList.remove("cool");
-  } else {
-    document.body.classList.add("cool");
-    document.body.classList.remove("remove");
   }
 });
